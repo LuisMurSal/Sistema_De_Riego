@@ -1,4 +1,4 @@
-import { useNavigate } from 'react-router-dom';
+import { useNavigate, Outlet } from 'react-router-dom';
 import { auth } from '../services/firebase/firebase';
 import { signOut } from 'firebase/auth';
 import { RiHome2Line, RiBarChart2Line, RiHeart2Line, RiLogoutBoxLine } from "react-icons/ri";
@@ -35,6 +35,9 @@ const Dashboard = () => {
           </li>
         </ul>
       </aside>
+      <main className="main-content">
+        <Outlet />
+      </main>
     </div>
   );
 };
