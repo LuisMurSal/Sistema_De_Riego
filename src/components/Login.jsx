@@ -15,7 +15,7 @@ const Login = () => {
     setIsLoading(true);
     try {
       await signInWithEmailAndPassword(auth, email, password);
-      navigate('/dashboard'); 
+      navigate('/inicio'); 
     } catch (error) {
       console.error("Error en el inicio de sesión:", error.code, error.message);
       alert("Error: " + error.message);

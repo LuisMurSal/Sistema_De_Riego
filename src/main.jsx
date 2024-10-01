@@ -2,7 +2,7 @@ import { createRoot } from 'react-dom/client';
 import { BrowserRouter as Router, Route, Routes } from 'react-router-dom';
 import Login from './components/Login';
 import Register from './components/Register';
-import Dashboard from './components/Dashboard';
+import Inicio from './components/Inicio';
 import PrivateRoute from './components/PrivateRoute'; 
 
 const App = () => {
@@ -17,7 +17,7 @@ const App = () => {
           element={
             <PrivateRoute>
               <Routes>
-                <Route path="/dashboard" element={<Dashboard />} />
+                <Route path="/inicio" element={<Inicio />} />
                 
               </Routes>
             </PrivateRoute>

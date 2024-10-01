@@ -4,14 +4,14 @@
 
 .sidebar {
   width: 200px;
-  background-color: #333;
+  background-color: #f9f9f9;
   padding: 20px;
   height: 100vh;
   color: white;
 }
 
 .sidebar h2 {
-  color: #fff;
+  color: #31572c;
 }
 
 .sidebar ul {
@@ -20,14 +20,26 @@
 }
 
 .sidebar ul li {
-  margin: 10px 0;
+  margin: 1rem 0;
   cursor: pointer;
-  color: #ccc;
+  color: #31572c;
+  transition: background-color 0.3s ease, padding 0.3s ease; /* Añadir transición aquí */
+  display: flex; /* Asegura que el icono y el texto se alineen horizontalmente */
+  align-items: center; /* Centra el icono verticalmente */
+}
+
+.sidebar ul li svg {
+  margin-right: 8px;
+  font-size: 24px;
 }
 
 .sidebar ul li:hover {
-  color: white;
+  color: #31572c;
+  background-color: #d6d6d6;
+  padding: 10px;
+  border-radius: 20px;
 }
+
 
 .main-content {
   flex-grow: 1;
