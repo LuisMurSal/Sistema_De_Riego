@@ -5,7 +5,7 @@ const Inicio = () => {
     {
       nombre: "Colaborador 1",
       rol: "Desarrollador Frontend",
-      descripcion: "Diseñor de las interfaces",
+      descripcion: "Diseñor de las interfaces.",
     },
     {
       nombre: "Colaborador 2",
@@ -15,7 +15,7 @@ const Inicio = () => {
     {
       nombre: "Colaborador 3",
       rol: "Desarrollador Frontend",
-      descripcion: "Diseñora de las interfaces",
+      descripcion: "Diseñora de las interfaces.",
     },
   ];
 
