@@ -6,9 +6,9 @@ import cors from 'cors';
 const app = express();
 const pool = new Pool({
   user: 'postgres', // Cambia por tu usuario de PostgreSQL
-  host: 'tu-endpoint-rds', // Cambia por tu endpoint de Amazon RDS
+  host: 'database-2.c16666c4uxt3.us-east-2.rds.amazonaws.com', // Cambia por tu endpoint de Amazon RDS
   database: 'postgres', // Cambia por el nombre de tu base de datos
-  password: 'tu-contraseña', // Cambia por tu contraseña
+  password: 'sistemariego123', // Cambia por tu contraseña
   port: 5432, // El puerto por defecto de PostgreSQL
   ssl: {
     rejectUnauthorized: false,
