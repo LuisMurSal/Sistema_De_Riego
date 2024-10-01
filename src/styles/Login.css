@@ -1,3 +1,18 @@
+body, html {
+  font-family: Arial, sans-serif;
+  margin: 0;
+  height: 100%;
+  background-color: #31572c;
+}
+
+.login-wrapper {
+  height: 100vh;
+  display: flex;
+  flex-direction: column; /* Cambiado para alinear el footer */
+  justify-content: center;
+  align-items: center;
+}
+
 .login-container {
   width: 400px;
   margin: auto;
@@ -29,7 +44,7 @@
 .login-container button {
   padding: 10px;
   margin-bottom: 15px;
-  background-color: #007bff;
+  background-color: #31572c;
   color: white;
   border: none;
   border-radius: 8px;
@@ -39,5 +54,15 @@
 }
 
 .login-container button:hover {
-  background-color: #0056b3;
+  background-color: #132a13;
+}
+
+.footer {
+  background-color: #f9f9f9;
+  text-align: center;
+  padding: 20px 0;
+  width: 100%;
+  margin: 0 auto;
+  position: sticky;
+  bottom: 0;
 }

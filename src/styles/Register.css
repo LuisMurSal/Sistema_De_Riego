@@ -1,3 +1,11 @@
+.register-wrapper {
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+
 .register-container {
   width: 400px;
   margin: auto;
@@ -28,24 +36,25 @@
 
 .register-container button {
   padding: 10px;
-  background-color: #007bff;
+  margin-bottom: 5px;
+  background-color: #31572c;
   color: white;
   border: none;
-  border-radius: 4px;
+  border-radius: 8px;
   font-size: 16px;
   cursor: pointer;
   transition: background-color 0.3s;
 }
 
 .register-container button:hover {
-  background-color: #0056b3;
+  background-color: #132a13;
 }
 
 .register-container .back-button {
   margin-top: 10px;
-  background-color: #6c757d;
+  background-color: #31572c;
 }
 
 .register-container .back-button:hover {
-  background-color: #5a6268;
+  background-color: #132a13;
 }
