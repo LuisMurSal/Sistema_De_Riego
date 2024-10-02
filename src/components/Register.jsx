@@ -1,4 +1,4 @@
-import React, { useState } from 'react';
+import { useState } from 'react';
 import { auth } from '../services/firebase/firebase';
 import { createUserWithEmailAndPassword } from 'firebase/auth';
 import { useNavigate } from 'react-router-dom';
@@ -26,26 +26,32 @@ const Register = () => {
   };
 
   return (
-    <div className="register-container">
-      <form onSubmit={handleRegister}>
-        <h2>Registro</h2>
-        <input 
-          type="email" 
-          placeholder="Correo electrónico" 
-          value={email} 
-          onChange={(e) => setEmail(e.target.value)} 
-          required 
-        />
-        <input 
-          type="password" 
-          placeholder="Contraseña" 
-          value={password} 
-          onChange={(e) => setPassword(e.target.value)} 
-          required 
-        />
-        <button type="submit">Registrarse</button>
-      </form>
-      <button className="back-button" onClick={handleLoginRedirect}>Volver a Iniciar Sesión</button>
+    <div className="register-wrapper">
+      <div className="register-container">
+        <form onSubmit={handleRegister}>
+          <h2>Registro</h2>
+          <input 
+            type="email" 
+            placeholder="Correo electrónico" 
+            value={email} 
+            onChange={(e) => setEmail(e.target.value)} 
+            required 
+          />
+          <input 
+            type="password" 
+            placeholder="Contraseña" 
+            value={password} 
+            onChange={(e) => setPassword(e.target.value)} 
+            required 
+          />
+          <button type="submit">Registrarse</button>
+          <button className="back-button" onClick={handleLoginRedirect}>Volver a Iniciar Sesión</button>
+        </form>
+      </div>
+      <footer className="footer">
+        <p>© Colaboradores. Hernandez Talamantes Andres Manuel | Hurtado Mijares Priscilla 
+        | Murillo Salinas Luis Angel</p>
+      </footer>
     </div>
   );
 };
