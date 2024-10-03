@@ -19,7 +19,7 @@ const Dashboard = () => {
   return (
     <div className="dashboard-container">
       <aside className="sidebar">
-        <h2>Menu</h2>
+        <h2>Menú</h2>
         <ul>
           <li onClick={() => navigate('/inicio')}>
             <RiHome2Line /> Inicio
@@ -31,7 +31,7 @@ const Dashboard = () => {
             <RiBarChart2Line /> Datos
           </li>
           <li onClick={handleLogout}>
-            <RiLogoutBoxLine /> Salir
+            <RiLogoutBoxLine /> Cerrar sesión
           </li>
         </ul>
       </aside>

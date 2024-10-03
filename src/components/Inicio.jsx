@@ -21,7 +21,7 @@ const Inicio = () => {
 
   return (
     <div className="inicio-container">
-      <h1>Sistema De Riego Automatico</h1>
+      <h1>Sistema De Riego Automático</h1>
       <p>Colaboradores del equipo:</p>
       <div className="tarjetas-container">
         {colaboradores.map((colaborador, index) => (
