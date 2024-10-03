@@ -2,7 +2,7 @@ body, html {
   font-family: Arial, sans-serif;
   margin: 0;
   height: 100%;
-  background-color: #31572c;
+  background-image: url('./src/assets/fondo.jpg');
 }
 
 .login-wrapper {
@@ -65,4 +65,13 @@ body, html {
   margin: 0 auto;
   position: sticky;
   bottom: 0;
+}
+
+.login-title{
+  font-size: 60px;
+  font-weight: bold;
+  color: white;
+  background-color:rgba(201, 201, 201, 0.5);
+  border-radius: 8px;
+  padding: 10px;
 }

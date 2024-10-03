@@ -30,6 +30,7 @@ const Login = () => {
 
   return (
     <div className="login-wrapper">
+      <p className='login-title'>SISTEMA DE RIEGO</p>
       <div className="login-container">
         <form onSubmit={handleLogin}>
           <h2>Iniciar Sesión</h2>
