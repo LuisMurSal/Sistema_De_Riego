@@ -7,6 +7,7 @@ import Dashboard from './components/Dashboard';
 import Inicio from './components/Inicio';
 import Beneficios from './components/Beneficios';
 import Datos from './components/Datos';
+import ControlDeSistema from './components/Control_de_sistema'; // Importa el componente
 
 const App = () => {
   return (
@@ -26,6 +27,7 @@ const App = () => {
           <Route path="inicio" element={<Inicio />} />
           <Route path="beneficios" element={<Beneficios />} />
           <Route path="datos" element={<Datos />} />
+          <Route path="control-sistema" element={<ControlDeSistema />}/>
         </Route>
       </Routes>
     </Router>

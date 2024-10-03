@@ -1,0 +1,38 @@
+.control-sistema-container {
+  text-align: center;
+  padding: 5rem; /* Espaciado interno */
+  background-color: #f9f9f9; /* Color de fondo */
+  border-radius: 5px; /* Bordes redondeados */
+}
+
+.control-sistema-container h1 {
+  margin-bottom: 20px; /* Espacio inferior del título */
+}
+
+.control-sistema-container button {
+  background-color: #dadada; /* Color de fondo del botón */
+  border: 1px solid #ddd; /* Borde del botón */
+  border-radius: 10px; /* Bordes redondeados */
+  padding: 15px 30px; /* Espaciado interno de los botones */
+  margin: 10px; /* Espacio entre botones */
+  cursor: pointer; /* Cursor tipo puntero */
+  transition: transform 0.3s ease; /* Transición suave para el tamaño del botón */
+  width: 150px; /* Ancho del botón */
+}
+
+.control-sistema-container button:hover {
+  transform: scale(1.05); /* Efecto de aumento al pasar el cursor */
+}
+
+h2 {
+  margin: 10px 0 5px; /* Margen del encabezado */
+}
+
+h3 {
+  margin: 5px 0; /* Margen del subencabezado */
+  color: #555; /* Color del subencabezado */
+}
+
+p {
+  color: #666; /* Color del texto */
+}
