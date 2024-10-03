@@ -1,9 +1,19 @@
-
+import '../styles/Datos.css'
 const Datos = () => {
   return (
-    <div>
-      <h1>Datos</h1>
-      <p>Aquí puedes ver todos los datos relevantes.</p>
+    <div className="data-container">
+      <h1>Datos del sistema</h1>
+      <div className='table-container'>
+        <div className='column-container'>
+          <p>Fecha</p>
+          <p>Hora</p>
+          <p>Cantidad de riegos</p>
+          <p>Cantidad de agua usada</p>
+        </div>
+        <div className='row-container'>
+          <p>info de base de datos</p>
+        </div>
+      </div>
     </div>
   );
 };
